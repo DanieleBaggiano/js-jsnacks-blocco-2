@@ -4,8 +4,6 @@
 // Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
 const userWord1 = prompt("Inserisci una parola");
-console.log(userWord1);
-
 const userWord2 = prompt("Inserisci un'altra parola");
-console.log(userWord2);
 
+const printWords = lengthWords(userWord1, userWord2);
