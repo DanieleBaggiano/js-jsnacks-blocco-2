@@ -1,0 +1,1 @@
+const inputArray = document.getElementById("input");
