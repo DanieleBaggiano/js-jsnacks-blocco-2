@@ -4,6 +4,12 @@ document.getElementById("cerca-btn").addEventListener("click", function() {
 
     const arrayElem = ["pippo", "pluto", "calzino", "padella"];
 
+    /**
+     * 
+     * @param {object} array 
+     * @param {string} elemento 
+     * @returns {number}
+     */
     function trovaIndice(array, elemento) {
         for (let i = 0; i < array.length; i++) {
             if (array[i] === elemento) {

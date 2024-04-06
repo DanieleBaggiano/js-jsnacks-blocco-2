@@ -9,6 +9,12 @@ document.getElementById("res-elem").addEventListener("click", function () {
 
     arrayElem.push(elem);
 
+    /**
+     * 
+     * @param {object} array 
+     * @param {string} elem 
+     * @returns {number}
+     */
     function contaElem(array, elem) {
         let conta = array.length;
         if (elem) {
