@@ -4,11 +4,11 @@
 - Funzione rimuoviDallaCoda()
 - Array A con elementi
 - Array B con elementi
-- Input e bottone
+- Bottone
 
 # ESECUZIONE LOGICA
-- Creare bottone e input in html
-- Collegarli a js con document.getElementById
+- Creare un bottone in html
+- Collegarlo a js con document.getElementById
 - Creare funzione click del bottone
 - Creare funzione rimuoviDallaCoda() per eliminare l'ultimo elemento dell'array A e stampare gli altri nell'array B
 
