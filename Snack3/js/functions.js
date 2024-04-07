@@ -8,6 +8,11 @@ document.getElementById("aggiungi-elem").addEventListener("click", function () {
     };
 });
 
+/**
+ * 
+ * @param {object} array 
+ * @returns {string}
+ */
 function stampaArray(array) {
     return array.join(", ");
 };
